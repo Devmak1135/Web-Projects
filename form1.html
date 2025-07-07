@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gujarat University</title>
+</head>
+<style>
+ img{ 
+        height:150px;
+		width: 200px;
+	 }	
+      .text{
+			background: transparent;
+			border: 2px solid white;
+			height: 30px;
+			width: 20rem;
+			border-radius: 10px;
+			color: white;
+		}
+		fieldset,figure{
+			border-radius: 2rem;
+			border: 3px solid white;
+			margin-bottom: 1rem;
+		}
+		legend{
+			margin: 10px;
+		}
+		.gender{
+			width: min-content;
+		}
+		figure{
+			padding: 2rem;
+	    }
+	    a{
+            float: right;
+          }
+</style>
+<body bgcolor="beige">
+<h1 align="center"><u>Computer Science<u></h1>
+<a href="w.html"><button>Home</button></a>
+<h2>Msc(CS)-Batch 2</h2>
+<img src="dcs.jpg"></img>
+<form>
+<p>
+   <label>Username:</legend><input class="text" type="text" required></label>
+</p>
+<p>
+   <label>Password:<input type="password"  required></label>
+</p>
+<h2>Select the gender</h2>
+    <label>Male<input type="radio" name="gender" value="male"  required></label>
+	<label>female<input type="radio" name="gender" value="female"  required></label>
+<h2>Choose Language</h2>
+  <ul style="List-style-type;none;">
+    <li><input type="checkbox" name="language" value="hindi"  />Hindi</li>
+	 <li><input type="checkbox" name="language" value="english"  />English</li>
+	<li><input type="checkbox" name="language" value="sanskrit"  />Sanskrit</li>
+   </ul>
+<h2>Select Your Nationality</h2>
+<select name="language">
+   <option value="indian">Indian</option>
+   <option value="nepali">Nepali</option>
+   <option value="others">Others</option>
+</select>
+<!--<textarea name="welcomeMessage"rows="3" cols="40">write the text you wish</textarea>-->
+ <fieldset>
+  <legend>Personal Details</legend>
+  <p>
+    <label>
+	Salutation
+<br   />
+      <select name="salutation">
+	  <option>--None--</option>
+	  <option>Mr.</option>
+	  <option>Ms</option>
+	  <option>Mrs.</option>
+	  <option>Dr.</option>
+	  <option>Prof.</option>
+	 <select>
+    </label>
+  </p>
+    <label>First name: <input name="firstName" placeholder="enter first name" required></label>
+  </p>
+ <p>
+    <label>Last name: <input name="lastName" placeholder="enter last name" required></label>
+ </p>
+<p>
+     Gender:
+	<label><input type="radio" name="gender" value="male" />Male</label>
+    	<label><input type="radio" name="gender" value="female" />Female</label>
+</p>
+<p>
+    	<label>Email:<input type="email" name="email" required></label>
+</p>
+<p>
+    	<label>Date of Birth:<input type="date" name="birthDate" required></label>
+</p>
+<p>
+        <label>
+		Address:
+		<br />
+		<textarea name="address" cols="30" rows="3"></textarea>
+		</label>
+</p>
+<p>
+       <button type="submit"><a href="b.html" color="black">Submit</a></button>
+</p>
+</fieldset>
+
+
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+	
+	  
